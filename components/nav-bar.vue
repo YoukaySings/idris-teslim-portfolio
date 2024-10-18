@@ -11,6 +11,7 @@
         <style scoped>
           .socialicon {
               font-size: 24px;
+              line-height: 0px;
           }
 
           .socialicon {
