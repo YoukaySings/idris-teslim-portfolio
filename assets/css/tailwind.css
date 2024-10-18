@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply box-border bg-[#ffffff] transition duration-300 ease-in-out w-full text-[#0f0905]
+}
+
+* {
+  @apply m-0 p-0;
+}
+
+p {
+  @apply leading-loose
+}
+
+@layer components {
+  .container {
+    @apply h-auto md:w-10/12 lg:w-8/12 overflow-auto p-6 lg:p-20 md:pt-0 pb-0 bg-[#ffffff];
+  }
+
+  .wrapper {
+    @apply grid lg:grid-rows-1 lg:grid-cols-2 gap-6 md:justify-center
+  }
+
+  .nav-bar {
+    @apply flex flex-col justify-center items-center content-center bg-[#0f0905] fixed left-2 bottom-[40%] px-4 py-6 gap-6 rounded-full shadow-2xl shadow-purple-600/50
+  }
+
+  .section-card {
+    @apply md:grid md:grid-cols-2 w-full
+  }
+
+  .section-card-img {
+    @apply w-full h-[300px] rounded-md bg-style
+  }
+
+  .card {
+    @apply w-full md:grid md:grid-cols-2 flex flex-col-reverse md:place-content-center md:items-center h-auto lg:h-[100px] gap-3
+  }
+
+  .card p {
+    @apply md:mr-4 mt-4 md:mt-0 md:text-right leading-loose
+  }
+
+  .card h2 {
+    @apply text-[24px] md:tracking-[3px] uppercase font-bold border-l-2 border-[#0f0905] pl-8 h-[40px] md:h-[100px] flex items-center
+  }
+
+  .custom-btn {
+    @apply border p-8 w-[300px] bg-[#0f0905] hover:bg-[#fff] text-[#fff] hover:text-[#0f0905] duration-300 text-[12px] font-bold grid place-content-center
+  }
+
+  .background {
+    @apply bg-contain bg-center bg-no-repeat
+  }
+
+  .video {
+    @apply w-full
+  }
+
+  .header {
+    @apply text-[24px] md:tracking-[3px] uppercase font-bold
+  }
+
+  .sub-header {
+    @apply md:text-[20px] md:tracking-[3px] uppercase font-bold
+  }
+
+   .gridCenter {
+    @apply grid place-items-center gap-3
+   }
+
+  
+
+   /* projects */
+
+   .p-header {
+    @apply md:text-[32px] tracking-[3px] uppercase font-bold
+   }
+
+   .projectBtn {
+      @apply px-10 py-5 bg-[#0f0905] text-[#fff] text-[12px] font-bold
+    }
+
+    .projectBtn-wrapper {
+      @apply w-full h-full hidden group-hover:inline-flex bg-[#0f090577] gridCenter transition-transform duration-500 ease-in-out transform hover:scale-105
+    }
+
+    .projectBtn-group {
+      @apply w-full h-[300px] md:h-[300px] rounded-md overflow-hidden transition-opacity duration-500 ease-in-out
+    }
+
+    .bg-style {
+      @apply bg-cover bg-center bg-no-repeat
+    }
+
+    .project-img {
+      @apply w-full grid place-items-center bg-style rounded-md
+    }
+
+   /* pop-up */
+   .pop-up-outer {
+    @apply fixed inset-0 bg-gray-200 bg-opacity-90 flex justify-center items-center z-50
+   }
+
+   .pop-up-inner {
+    @apply bg-white p-8 rounded-lg shadow-lg w-8/12 h-3/4 overflow-scroll
+   }
+
+   .message {
+    @apply w-8/12 md:w-[250px] bg-transparent border font-bold p-4 bg-white hover:bg-transparent hover:text-white rounded-full transition duration-300 ease-in-out
+   }
+}
