@@ -4,7 +4,7 @@
          <!-- section card -->
         <div class="gridCenter">
             <div class="section-card">
-                <h2 class="header" data-aos="fade-right">Some more...</h2>
+                <h2 class="header" data-aos="fade-right">See more...</h2>
                 <p data-aos="fade-left">I create beautiful websites your users will love - building web content and functions that unlock business potential and increase business profit margin by 30%</p>
             </div>
             <div class="section-card-img bg-gray-300 h-[500px] md:h-[300px] rounded-md">

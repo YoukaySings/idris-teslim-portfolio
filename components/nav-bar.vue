@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed w-full h-[40px] gridCenter z-50">
+    <div class="absolute w-full gridCenter z-50">
         <div class="nav-bar">
             <NuxtLink to="https://github.com/YoukaySings"><icon class="socialicon" name="uil:github"/></NuxtLink>
             <NuxtLink to="mailto:iteslimidris09@gmail.com"><icon class="socialicon" name="uil:envelope"/></NuxtLink>

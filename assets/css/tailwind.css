@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply box-border bg-[#ffffff] transition duration-300 ease-in-out w-full text-[#0f0905]
+  @apply w-full box-border bg-[#ffffff] transition duration-300 ease-in-out text-[#0f0905]
 }
 
 * {
@@ -16,7 +16,7 @@ p {
 
 @layer components {
   .container {
-    @apply h-auto md:w-10/12 lg:w-8/12 overflow-auto p-6 lg:p-20 md:pt-0 pb-0 bg-[#ffffff];
+    @apply h-auto md:w-10/12 lg:w-8/12 p-6 lg:p-10 md:pt-0 pb-0 bg-[#ffffff];
   }
 
   .wrapper {
@@ -24,7 +24,7 @@ p {
   }
 
   .nav-bar {
-    @apply w-6/12 grid grid-cols-3 gridCenter bg-[#0f0905] fixed top-2 px-8 py-4 gap-6 rounded-full shadow-2xl shadow-purple-600/50
+    @apply w-6/12 md:w-2/12 flex justify-center gridCenter bg-[#0f0905] fixed top-2 py-4 gap-8 rounded-full shadow-2xl shadow-purple-600/50
   }
 
   .section-card {
@@ -50,11 +50,7 @@ p {
   .custom-btn {
     @apply border p-8 w-[300px] bg-[#0f0905] hover:bg-[#fff] text-[#fff] hover:text-[#0f0905] duration-300 text-[12px] font-bold grid place-content-center
   }
-
-  .background {
-    @apply bg-contain bg-center bg-no-repeat
-  }
-
+  
   .video {
     @apply w-full
   }
@@ -68,7 +64,7 @@ p {
   }
 
    .gridCenter {
-    @apply grid place-items-center gap-3
+    @apply grid place-items-center place-content-center gap-3
    }
 
   
