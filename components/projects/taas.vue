@@ -15,7 +15,9 @@
         <div class="project-img bg-[url('/taas.png')]">
             <div class="projectBtn-group group">
                 <div class="projectBtn-wrapper">
-                    <NuxtLink to="taas-page"><button class="projectBtn mt-5 items-center inline-flex">Read more</button></NuxtLink>
+                    <NuxtLink to="/taas-page">
+                      <button class="projectBtn mt-5 items-center inline-flex">Read more</button>
+                    </NuxtLink>
                 </div>
             </div>
         </div>

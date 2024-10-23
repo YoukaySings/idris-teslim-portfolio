@@ -11,22 +11,22 @@
         </div>
         <!-- section card -->
         <div class="h-full flex flex-col justify-between gap-4">
-            <div class="capitalize card">
+            <div class="card">
                 <p data-aos="fade-right">html, css, javascript, vue.js, store, nuxt, vuex, tailwindcss, bootstrap, vuetify, git &amp; github, gitlab</p>
                 <h2 class="circle relative flex items-end" data-aos="fade-left">web development</h2>
             </div>
             <br>
-            <div class="capitalize card">
+            <div class="card">
                 <p data-aos="fade-right">dialogue flows &amp; prototyping, UX Writing, user research, user interviews, wireframing, figma, figjam, adobe xd, webflow, sketch, agile ux design</p>
                 <h2 class="circle relative flex items-end" data-aos="fade-left">ui/ux design</h2>
             </div>
             <br>
-            <div class="capitalize card">
+            <div class="card">
                 <p data-aos="fade-right">Problem solving and Time management, Prototyping & Wireframing, Information architecture, User research, UX Writing, Visual design, Detail oriented, Visual design elements, Productivity, Adequate delivery, Great communication skills</p>
                 <h2 class="circle relative flex items-end" data-aos="fade-left">Skills</h2>
             </div>
             <br>
-            <div class="capitalize card">
+            <div class="card">
                 <p data-aos="fade-right">Html, Css, Javascript, Vue.js, Vue 2, Vue 3, Vuex, Nuxt 2, Nuxt 3, Vuetify, Tailwind css, Bootstrap, Composition API, REST API.</p>
                 <h2 class="circle relative flex items-end" data-aos="fade-left">Languages</h2>
             </div>
@@ -48,7 +48,6 @@
   left: -6px; /* Center it relative to the border */
   bottom: -10px; /* Position it at the bottom of the div */
 }
-
 
 img{
     width: 50px;

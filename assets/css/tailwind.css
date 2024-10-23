@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply w-[100%] box-border bg-[#ffffff] transition duration-300 ease-in-out text-[#0f0905]
+  @apply w-[100%] overflow-x-hidden box-border bg-[#ffffff] transition duration-300 ease-in-out text-[#0f0905]
 }
 
 * {
@@ -16,7 +16,7 @@ p {
 
 @layer components {
   .container {
-    @apply h-auto md:w-10/12 lg:w-8/12 p-6 lg:p-10 md:pt-0 pb-0 bg-[#ffffff];
+    @apply h-auto md:w-10/12 lg:w-8/12 p-6 lg:p-10 md:pt-0 pb-0 bg-[#ffffff]
   }
 
   .wrapper {
@@ -24,7 +24,7 @@ p {
   }
 
   .nav-bar {
-    @apply w-6/12 md:w-2/12 flex justify-center gridCenter bg-[#0f0905] fixed top-2 py-4 gap-8 rounded-full shadow-2xl shadow-purple-600/50
+    @apply w-6/12 md:w-3/12 flex justify-center gridCenter bg-[#0f0905] fixed top-2 py-4 px-6 gap-8 rounded-full shadow-2xl shadow-purple-600/50
   }
 
   .section-card {
@@ -79,6 +79,10 @@ p {
       @apply px-10 py-5 bg-[#0f0905] text-[#fff] text-[12px] font-bold
     }
 
+    .goto-text {
+      @apply normal-case text-sm p-2 bg-purple-600 hover:underline absolute bottom-0 right-0
+    }
+
     .projectBtn-wrapper {
       @apply w-full h-full hidden group-hover:inline-block bg-[#0f090577] gridCenter transition-transform duration-500 ease-in-out transform hover:scale-105
     }
@@ -94,11 +98,6 @@ p {
     .project-img {
       @apply w-full grid place-items-center bg-style rounded-md
     }
-
-   /* pop-up */
-   /* .pop-up-outer {
-    @apply fixed top-0 w-full h-screen bg-gray-200 bg-opacity-90 flex justify-center items-center z-50
-   } */
 
    .pop-up-inner {
     @apply bg-white rounded-lg py-8 w-11/12 md:w-8/12 h-screen

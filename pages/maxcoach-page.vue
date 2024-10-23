@@ -1,9 +1,11 @@
 <template>
     <div class="gridCenter">
-        <div class="inner pop-up-inner">
+        <div class="pop-up-inner">
             <nuxt-link to="/" class="back-btn">Back</nuxt-link>
-            <div class="bg-[url('/maxcoach.png')] bg-style w-full h-[200px] md:h-3/5 gridCenter"></div>
-            <div class="md:px-10">
+            <div class="bg-[url('/maxcoach.png')] bg-style w-full h-[200px] lg:h-3/5 relative">
+                <NuxtLink to="https://maxcoach.com/" class="goto-text">Go to webpage</NuxtLink>
+            </div>
+            <div class="md:px-10 pb-10">
                 <h2 class="header mt-6 mb-4">Maxcoach Educational/Learning Website</h2>
             <p>
                 Maxcoach is an educational and learning platform designed to offer a variety of online courses and training programs. Maxcoach is a Learner-Centric Online Education System Powered by Learn Press plugin and Elementor editor, MaxCoach makes it easier to create rich lesson content, organize courses, manage learners' data and privacy.

@@ -1,8 +1,8 @@
 <template>
     <div class="bg-[#0f0905] w-full gridCenter py-10 pb-1">
       <!-- section card -->
-    <div class="w-10/12">
-      <div class="gridCenter mb-10 md:w-6/12 text-white">
+    <div class="w-10/12 gridCenter">
+      <div class="mb-10 md:w-6/12 text-white">
             <div class="section-card">
                 <h2 class="header" data-aos="fade-right">Let's Work...</h2>
                 <p data-aos="fade-left">"I believe in the power of design solution and smart development to create memorable digital experiences that resonate with users and achieve business goals."</p>
