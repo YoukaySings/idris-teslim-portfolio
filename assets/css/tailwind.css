@@ -104,7 +104,7 @@ p {
    }
 
    .back-btn {
-    @apply font-bold p-4 pr-8 fixed left-0 bg-[#0f0905] text-white
+    @apply font-bold p-4 pr-8 fixed left-0 bg-[#0f0905] text-white z-50
    }
 
    .message {
