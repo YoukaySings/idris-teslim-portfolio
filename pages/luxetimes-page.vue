@@ -3,7 +3,7 @@
         <div class="inner pop-up-inner">
             <nuxt-link to="/" class="back-btn">Back</nuxt-link>
             <div class="bg-[url('/luxetimes.png')] bg-style bg-top w-full h-[200px] lg:h-3/5 relative">
-                <NuxtLink to="https://idris-teslim-portfolio.vercel.app/" class="goto-text">Go to webpage</NuxtLink>
+                <NuxtLink to="https://luxetimes.vercel.app/" class="goto-text">Go to webpage</NuxtLink>
             </div>
             <div class="md:px-10 pb-10">
             <h2 class="header mb-4 mt-6">LuxeTimes</h2>

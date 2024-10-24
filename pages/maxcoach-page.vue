@@ -3,7 +3,7 @@
         <div class="pop-up-inner">
             <nuxt-link to="/" class="back-btn">Back</nuxt-link>
             <div class="bg-[url('/maxcoach.png')] bg-style w-full h-[200px] lg:h-3/5 relative">
-                <NuxtLink to="https://maxcoach.com/" class="goto-text">Go to webpage</NuxtLink>
+                <NuxtLink to="https://maxcoach.thememove.com/" class="goto-text">Go to webpage</NuxtLink>
             </div>
             <div class="md:px-10 pb-10">
                 <h2 class="header mt-6 mb-4">Maxcoach Educational/Learning Website</h2>
